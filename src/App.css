@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-nav a {
+  color: rgba(31, 46, 53, 0.8);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero {
+  margin-top: 4pc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text h1 {
+  color: #1f2e35;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.687%; /* 64.17px */
+}
+
+.hero-text h1 span {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+
+  font-weight: 700;
+  line-height: 133.687%;
+}
+
+.hero-text p {
+  margin: 24px 0;
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.687%; /* 28.937px */
+}
+.hero-text button {
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #ee4248;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.687%; /* 28.937px */
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about {
+  margin-top: 9pc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-text h1 {
+  color: #1f2e35;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%; /* 42.78px */
+}
+
+.about-text h1 span {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%;
+}
+.containers{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text p {
+  margin: 24px 0;
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.d {
+  margin-top: 10pc;
+  margin-bottom: 4pc;
+  color: #1f2e35;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%; /* 42.78px */
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12pc;
+}
+
+.product h1 {
+  color: #ee4248;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.687%; /* 37.432px */
+  margin: 15px 0;
+}
+
+.product p {
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-bottom: 15px;
+}
+
+.product button {
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #ee4248;
+
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.687%; /* 26.044px */
+}
+.footer {
+  display: flex;
+  gap: 50px;
+  margin-left: 300px;
+}
+.footers {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.footers img {
+  width: 100px;
+}
+.footers span {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footers p {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 149.187%; /* 26.854px */
+}
+.footers2 {
+  display: flex;
+  flex-direction: column;
+}
+.footers2 p {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 149.187%; /* 26.854px */
+}
+.footers2 h2 {
+  margin-top: 10px;
+}
+.footer-end {
+  display: flex;
+  width: 100%;
+  height: 64px;
+  padding: 22px 0px 21px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #ee4248;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
